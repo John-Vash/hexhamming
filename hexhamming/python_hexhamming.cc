@@ -1,7 +1,7 @@
 #include <cstring>
 #if _MSC_VER
   #include <intrin.h>
-#else
+#elif __x86_64
   #include <x86intrin.h>
 #endif
 #include <Python.h>
